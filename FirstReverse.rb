@@ -1,6 +1,6 @@
 def FirstReverse(str)
   
-  a= str.reverse
-  return a
+  str.reverse!
+  return str
 
 end
